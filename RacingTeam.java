@@ -38,9 +38,9 @@ public class RacingTeam implements Runnable {
         public static void main(String[] args) {
             System.out.println("Начинаем эстафету!");
             //new RacingTeam("Спартак");
-            RacingTeam team1 = new RacingTeam("Спартак");
-            RacingTeam team2 = new RacingTeam("Локомотив");
-            RacingTeam team3 = new RacingTeam("Динамо");
+            RacingTeam team1 = new RacingTeam("Зеленые");
+            RacingTeam team2 = new RacingTeam("Красные");
+            RacingTeam team3 = new RacingTeam("Синие");
 
             try {
                 team1.team.join();
